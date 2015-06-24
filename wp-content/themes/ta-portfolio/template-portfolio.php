@@ -269,10 +269,10 @@ get_header(); ?>
 									<li><?php _e( 'Organización/Comunidad:', 'ta-portfolio' ); ?>
 										<strong><a href="<?php echo get_post_meta( $post->ID, '_cmb_clienturl', true); ?>" target="_blank"><?php echo get_post_meta( $post->ID, '_cmb_clientname', true); ?></a></strong>
 									</li>
-									<li><?php _e( 'Date:', 'ta-portfolio' ); ?>
+									<li><?php _e( 'Fecha:', 'ta-portfolio' ); ?>
 										<strong><?php echo get_the_date(); ?></strong>
 									</li>
-									<li><?php _e( 'Categories:', 'ta-portfolio' ); ?>
+									<li><?php _e( 'Categorías:', 'ta-portfolio' ); ?>
 										<?php $terms = wp_get_post_terms( $post->ID, 'portfolio_tags', array( "fields" => "names" ) ); ?>
 										<strong><?php echo implode( ' / ',$terms ); ?></strong>
 									</li>

@@ -12,9 +12,10 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-					<?php if ( ta_option( 'header_image' ) != '') : ?>
+					<!-- <?php if ( ta_option( 'header_image' ) != '') : ?>
 						<img class="img-responsive" src="<?php echo ta_option( 'header_image', false, 'url' ); ?>">
 					<?php endif; ?>
+					-->
                     <div class="intro-text">
                         <span class="name">
 							<?php if ( ta_option( 'header_title' ) != '') : ?>

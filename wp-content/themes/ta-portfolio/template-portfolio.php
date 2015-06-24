@@ -266,7 +266,7 @@ get_header(); ?>
 									} ?>
 								</p>
 								<ul class="list-inline item-details">
-									<li><?php _e( 'Client:', 'ta-portfolio' ); ?>
+									<li><?php _e( 'Organización/Comunidad:', 'ta-portfolio' ); ?>
 										<strong><a href="<?php echo get_post_meta( $post->ID, '_cmb_clienturl', true); ?>" target="_blank"><?php echo get_post_meta( $post->ID, '_cmb_clientname', true); ?></a></strong>
 									</li>
 									<li><?php _e( 'Date:', 'ta-portfolio' ); ?>

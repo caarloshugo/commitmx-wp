@@ -22,7 +22,7 @@
 			</div>
 
 			<div class="col-sm-12 col-md-5 col-lg-5">
-				<p>Client: 
+				<p>Organización/Comunidad: 
 					<strong><a href="<?php echo get_post_meta( $post->ID, '_cmb_clienturl', true); ?>" target="_blank"><?php echo get_post_meta( $post->ID, '_cmb_clientname', true); ?></a></strong>
 				</p>
 				<p>Date:

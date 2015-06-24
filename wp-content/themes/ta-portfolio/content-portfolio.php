@@ -25,10 +25,10 @@
 				<p>Organización/Comunidad: 
 					<strong><a href="<?php echo get_post_meta( $post->ID, '_cmb_clienturl', true); ?>" target="_blank"><?php echo get_post_meta( $post->ID, '_cmb_clientname', true); ?></a></strong>
 				</p>
-				<p>Date:
+				<p>Fecha:
 					<strong><?php echo get_the_date(); ?></strong>
 				</p>
-				<p>Categories:
+				<p>Categorías:
 					<?php $terms = wp_get_post_terms( $post->ID, 'portfolio_tags', array( "fields" => "names" ) ); ?>
 					<strong><?php echo implode( ' / ',$terms ); ?></strong>
 				</p>

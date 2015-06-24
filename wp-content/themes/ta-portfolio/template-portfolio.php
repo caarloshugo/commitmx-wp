@@ -277,7 +277,7 @@ get_header(); ?>
 										<strong><?php echo implode( ' / ',$terms ); ?></strong>
 									</li>
 								</ul>
-								<a class="btn btn-default" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php _e( 'Learn More', 'ta-portfolio' ); ?></a>
+								<a class="btn btn-default" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php _e( 'Leer más', 'ta-portfolio' ); ?></a>
 							</div>
 						</div>
 					</div>

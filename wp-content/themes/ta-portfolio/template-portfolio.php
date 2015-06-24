@@ -39,7 +39,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2><?php _e( 'Eventos', 'ta-portfolio' ); ?></h2>
+                    <h2><?php _e( 'Eventos/Difusión', 'ta-portfolio' ); ?></h2>
                     <hr class="star-primary portfolio">
                 </div>
             </div>

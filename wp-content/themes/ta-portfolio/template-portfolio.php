@@ -172,7 +172,7 @@ get_header(); ?>
 						?>
                      </ul>
 					 <div class="col-lg-8 col-lg-offset-2 text-center">
-						<a href="<?php if( get_option( 'show_on_front' ) == 'page' ) echo get_permalink( get_option('page_for_posts' ) ); else echo esc_url( home_url( '/' ) ); ?>" class="btn btn-md btn-outline"><?php _e( 'More Posts', 'ta-portfolio' ); ?></a>
+						<a href="<?php if( get_option( 'show_on_front' ) == 'page' ) echo get_permalink( get_option('page_for_posts' ) ); else echo esc_url( home_url( '/' ) ); ?>" class="btn btn-md btn-outline"><?php _e( 'Ver más', 'ta-portfolio' ); ?></a>
 					</div>
                 </div>
             </div>

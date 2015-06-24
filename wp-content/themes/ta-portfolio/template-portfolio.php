@@ -38,7 +38,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2><?php _e( 'Portfolio', 'ta-portfolio' ); ?></h2>
+                    <h2><?php _e( 'Eventos', 'ta-portfolio' ); ?></h2>
                     <hr class="star-primary portfolio">
                 </div>
             </div>
@@ -49,7 +49,7 @@ get_header(); ?>
 				$count = count( $terms );
 				echo '<div id="filters" class="filters">';
 				echo '<ul>';
-				echo '<li class="filter active" data-filter="*">'. __('All', 'ta-portfolio') .'</li>';
+				echo '<li class="filter active" data-filter="*">'. __('Todos', 'ta-portfolio') .'</li>';
 					if ( $count > 0 ) {   
 						foreach ( $terms as $term ) {
 							$termname = strtolower( $term->name );
@@ -183,7 +183,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2><?php _e( 'Contact Me', 'ta-portfolio' ); ?></h2>
+                    <h2><?php _e( 'Ponte en contacto con nosotros', 'ta-portfolio' ); ?></h2>
                     <hr class="star-primary contact">
                 </div>
             </div>

@@ -193,28 +193,28 @@ get_header(); ?>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label><?php _e( 'Nombre', 'ta-portfolio' ); ?></label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="<?php _e( 'Please enter your name.', 'ta-portfolio' ); ?>">
+                                <input type="text" class="form-control" placeholder="Nombre" id="name" required data-validation-required-message="<?php _e( 'Please enter your name.', 'ta-portfolio' ); ?>">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label><?php _e( 'Correo electrónico', 'ta-portfolio' ); ?></label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="<?php _e( 'Please enter your email address.', 'ta-portfolio' ); ?>">
+                                <input type="email" class="form-control" placeholder="Correo electrónico" id="email" required data-validation-required-message="<?php _e( 'Please enter your email address.', 'ta-portfolio' ); ?>">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label><?php _e( 'Asunto', 'ta-portfolio' ); ?></label>
-                                <input type="text" class="form-control" placeholder="Subject" id="subject" required data-validation-required-message="<?php _e( 'Please enter a subject.', 'ta-portfolio' ); ?>">
+                                <input type="text" class="form-control" placeholder="Asunto" id="subject" required data-validation-required-message="<?php _e( 'Please enter a subject.', 'ta-portfolio' ); ?>">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label><?php _e( 'Mensaje', 'ta-portfolio' ); ?></label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="<?php _e( 'Please enter a message.', 'ta-portfolio' ); ?>"></textarea>
+                                <textarea rows="5" class="form-control" placeholder="Mensaje" id="message" required data-validation-required-message="<?php _e( 'Please enter a message.', 'ta-portfolio' ); ?>"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>

@@ -185,7 +185,7 @@ msgstr ""
 
 #: template-portfolio.php:41 inc/post-types/register-portfolio.php:5
 msgid "Portfolio"
-msgstr ""
+msgstr "Portafolio"
 
 #: template-portfolio.php:52 redux/inc/fields/border/field_border.php:125
 #: redux/inc/fields/spacing/field_spacing.php:191
@@ -206,39 +206,39 @@ msgstr ""
 
 #: template-portfolio.php:186
 msgid "Contact Me"
-msgstr ""
+msgstr "Ponte en contacto con nosotros"
 
 #: template-portfolio.php:196
 msgid "Please enter your name."
-msgstr ""
+msgstr "Por favor pon tu nombre"
 
 #: template-portfolio.php:202
 msgid "Email Address"
-msgstr ""
+msgstr "Correo electrónico"
 
 #: template-portfolio.php:203
 msgid "Please enter your email address."
-msgstr ""
+msgstr "Por favor pon tu correo electrónico"
 
 #: template-portfolio.php:209
 msgid "Subject"
-msgstr ""
+msgstr "Asunto"
 
 #: template-portfolio.php:210
 msgid "Please enter a subject."
-msgstr ""
+msgstr "Por favor pon un asunto"
 
 #: template-portfolio.php:216
 msgid "Message"
-msgstr ""
+msgstr "Mensaje"
 
 #: template-portfolio.php:217
 msgid "Please enter a message."
-msgstr ""
+msgstr "Por favor pon un mensaje"
 
 #: template-portfolio.php:225
 msgid "Send"
-msgstr ""
+msgstr "Enviar"
 
 #: template-portfolio.php:268
 msgid "Client:"

@@ -192,28 +192,28 @@ get_header(); ?>
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label><?php _e( 'Name', 'ta-portfolio' ); ?></label>
+                                <label><?php _e( 'Nombre', 'ta-portfolio' ); ?></label>
                                 <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="<?php _e( 'Please enter your name.', 'ta-portfolio' ); ?>">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label><?php _e( 'Email Address', 'ta-portfolio' ); ?></label>
+                                <label><?php _e( 'Correo electrónico', 'ta-portfolio' ); ?></label>
                                 <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="<?php _e( 'Please enter your email address.', 'ta-portfolio' ); ?>">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label><?php _e( 'Subject', 'ta-portfolio' ); ?></label>
+                                <label><?php _e( 'Asunto', 'ta-portfolio' ); ?></label>
                                 <input type="text" class="form-control" placeholder="Subject" id="subject" required data-validation-required-message="<?php _e( 'Please enter a subject.', 'ta-portfolio' ); ?>">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label><?php _e( 'Message', 'ta-portfolio' ); ?></label>
+                                <label><?php _e( 'Mensaje', 'ta-portfolio' ); ?></label>
                                 <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="<?php _e( 'Please enter a message.', 'ta-portfolio' ); ?>"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
@@ -222,7 +222,7 @@ get_header(); ?>
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg"><?php _e( 'Send', 'ta-portfolio' ); ?></button>
+                                <button type="submit" class="btn btn-success btn-lg"><?php _e( 'Enviar', 'ta-portfolio' ); ?></button>
                             </div>
                         </div>
                     </form>
